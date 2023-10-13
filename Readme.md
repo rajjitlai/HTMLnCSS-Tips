@@ -52,5 +52,6 @@ We welcome contributions from the web development community. If you have valuabl
 Here are links to the various folders and sections in this repository:
 
 - [Default HTML-CSS Template](./default-HTML-CSS-template/): A default template of HTML, CSS and JS with a gradient background effect and a transparent container
+- [Newsletter Popup](./popup-newsletter/): A popup with some gradient effects that can collect emails and create a newsletter journey
 
 Happy coding!
