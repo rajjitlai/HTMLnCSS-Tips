@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Collector</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+            <div class="card" id="popup">
+                <div class="formContainer">
+                    <span class="title">Join our newsletter</span>
+                    <i class="uil uil-times closePopup" id="closePopup"></i>
+                    <form action class="form" name="submit-to-google-sheet">
+                        <div class="inputField">
+                            <i class="uil uil-user"></i>
+                            <input type="text" name="Username" placeholder="Enter your name" required>
+                        </div>
+                        <div class="inputField">
+                            <i class="uil uil-envelope icon"></i>
+                            <input type="email" name="email" placeholder="Enter your email" required>
+                        </div>
+                        <div class="inputField inputButton">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
