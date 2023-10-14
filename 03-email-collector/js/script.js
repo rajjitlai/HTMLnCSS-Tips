@@ -14,7 +14,7 @@ document.getElementById("closePopup").addEventListener("click", function () {
     popup.style.visibility = "hidden";
 });
 
-const scriptURL = 'https://script.google.com/macros/s/AKfycbwNfsrR8hRMGMYIxs8DuUwlaKHYyn7evXoyD3X5Ihfcapa48g9gQB79eBlt56S68zDZ/exec'
+const scriptURL = 'https://script.google.com/macros/s/AKfycbxv1KHXAOvorWJyD53F-Q_9zuiS2r34ciSo36oU5wkpeo6soUS4FmvFLZ4G1FdUZj_N/exec'
 const form = document.forms['submit-to-google-sheet']
 
 const msg = document.getElementById('msg')
