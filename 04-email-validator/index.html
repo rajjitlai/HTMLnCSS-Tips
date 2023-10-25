@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validator using JS</title>
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- custom styling -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JS link for adding phone code -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.0/css/intlTelInput.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form action="" class="form" id="form">
+            <div class="form-input">
+                <label for="Username">Username</label>
+                <input type="text" placeholder="Username" id="username" required>
+                <i class="uil uil-check-circle"></i>
+                <i class="uil uil-exclamation-circle"></i>
+                <small></small>
+            </div>
+            <div class="form-input">
+                <label for="Email">Email</label>
+                <input type="email" placeholder="Email" id="email" required>
+                <i class="uil uil-check-circle"></i>
+                <i class="uil uil-exclamation-circle"></i>
+                <small></small>
+            </div>
+            <div class="form-input" id="phoneInput">
+                <label for="Phone">Phone</label>
+                <input type="tel" placeholder="Phone" id="phone" required>
+                <i class="uil uil-check-circle"></i>
+                <i class="uil uil-exclamation-circle"></i>
+                <small></small>
+            </div>
+            <div class="form-input">
+                <label for="Password">Password</label>
+                <input type="password" placeholder="Password" id="password" required>
+                <i class="uil uil-check-circle"></i>
+                <i class="uil uil-exclamation-circle"></i>
+                <small></small>
+            </div>
+            <div class="form-input">
+                <label for="Password Check">Retype Password</label>
+                <input type="password" placeholder="Password" id="passwordCheck" required>
+                <i class="uil uil-check-circle"></i>
+                <i class="uil uil-exclamation-circle"></i>
+                <small></small>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- other JS code for phone code -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.0/js/intlTelInput.min.js"></script>
+    <!-- JS code for validation -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
