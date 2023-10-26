@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Email Validator using JS</title>
+    <title>Form Validation using JS</title>
     <!-- ICONS -->
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
     <!-- custom styling -->
@@ -21,33 +21,32 @@
         <form action="" class="form" id="form">
             <div class="form-input">
                 <label for="Username">Username</label>
-                <input type="text" placeholder="Username" id="username" required>
+                <input type="text" placeholder="Username" id="username">
                 <i class="uil uil-check-circle"></i>
                 <i class="uil uil-exclamation-circle"></i>
                 <small></small>
             </div>
             <div class="form-input">
                 <label for="Email">Email</label>
-                <input type="email" placeholder="Email" id="email" required>
+                <input type="email" placeholder="Email" id="email">
                 <i class="uil uil-check-circle"></i>
                 <i class="uil uil-exclamation-circle"></i>
                 <small></small>
             </div>
             <div class="form-input" id="phoneInput">
                 <label for="Phone">Phone</label>
-                <input type="tel" placeholder="Phone" id="phone" required>
-                <small></small>
+                <input type="tel" placeholder="Phone" id="phone" pattern="\d*">
             </div>
             <div class="form-input">
                 <label for="Password">Password</label>
-                <input type="password" placeholder="Password" id="password" required>
+                <input type="password" placeholder="Password" id="password">
                 <i class="uil uil-check-circle"></i>
                 <i class="uil uil-exclamation-circle"></i>
                 <small></small>
             </div>
             <div class="form-input">
                 <label for="Password Check">Retype Password</label>
-                <input type="password" placeholder="Password" id="passwordCheck" required>
+                <input type="password" placeholder="Password" id="passwordCheck">
                 <i class="uil uil-check-circle"></i>
                 <i class="uil uil-exclamation-circle"></i>
                 <small></small>

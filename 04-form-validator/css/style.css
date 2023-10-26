@@ -27,7 +27,7 @@ body {
     text-align: center;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #adadad;
 }
 
 .header h2 {
@@ -37,34 +37,38 @@ body {
 }
 
 .form {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
     padding: 30px 40px;
 }
 
-.form-input label {
-    font-weight: 600;
+.form-input {
+    margin-bottom: 10px;
+    padding-bottom: 20px;
     position: relative;
 }
 
+.form-input label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
 .form-input input {
-    border: 1px solid #8dffb9;
-    border-radius: 5px;
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
     display: block;
-    font-size: 16px;
+    font-family: inherit;
+    font-size: 14px;
     padding: 10px;
     width: 100%;
     outline: none;
 }
 
 .form-input i {
+    position: absolute;
+    top: 35px;
+    right: 10px;
+    visibility: hidden;
     font-size: 20px;
     font-weight: 600;
-    position: absolute;
-    top: 31%;
-    right: 41%;
-    display: none;
 }
 
 .form-input small {
@@ -72,28 +76,30 @@ body {
     bottom: 0;
     left: 0;
     visibility: hidden;
+    font-size: 15px;
+    font-weight: 500;
 }
 
 .form-input.success input {
-    border-color: #2fff86;
+    border-color: #2ecc71;
 }
 
 .form-input.error input {
-    border-color: #f84531;
+    border-color: #e74e3c;
 }
 
 .form-input.success i.uil-check-circle {
-    color: #2fff86;
-    display: block;
+    color: #2ecc71;
+    visibility: visible;
 }
 
-.form-input.header i.uil-exclamation-circle {
-    color: #f84531;
-    display: block;
+.form-input.error i.uil-exclamation-circle {
+    color: #e74e3c;
+    visibility: visible;
 }
 
 .form-input.error small {
-    color: #f84531;
+    color: #e74e3c;
     visibility: visible;
 }
 
@@ -114,13 +120,13 @@ body {
     border: 2px solid #b0ffe1;
 }
 
-.form button:hover {
-    background: #b0ffe1;
-}
-
-#phoneInput {
+#phoneInput{
     display: flex;
     flex-direction: column;
+}
+
+.form button:hover {
+    background: #b0ffe1;
 }
 
 .iti__country-list {
