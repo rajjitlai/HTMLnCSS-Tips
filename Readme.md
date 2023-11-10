@@ -55,5 +55,6 @@ Here are links to the various folders and sections in this repository:
 - [Newsletter Popup](./02-popup-newsletter/): A popup with some gradient effects that can collect emails and create a newsletter journey
 - [Email Collector](./03-email-collector/): An email collector which can be used to collect emails from the users and send it automatically to google sheets
 - [Form Validation](./04-form-validator/): Form validation using simple JavaScript and a template to a beautiful HTML, CSS designed form
+- [Beautiful Web Animation](./05-web-animation/): A beautiful web animation using simple HTML, CSS and JS which you can set as a default background.
 
 Happy coding!
