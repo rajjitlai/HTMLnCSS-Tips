@@ -57,5 +57,6 @@ Here are links to the various folders and sections in this repository:
 - [Form Validation](./04-form-validator/): Form validation using simple JavaScript and a template to a beautiful HTML, CSS designed form
 - [Beautiful Web Animation](./05-web-animation/): A beautiful web animation using simple HTML, CSS and JS which you can set as a default background.
 - [Blur Mask Image](./06-blur-mask-design/): A beautiful blur-mask-image-design using HTML, CSS and JS. The blur mask image design is added in the CSS file for making a blurry background.
+- [Web Time](./07-add-timer/): Add a beautiful time or clock to the web page using HTML. CSS and JS. You can change the Time Zone according to your place.
 
 Happy coding!
