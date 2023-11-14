@@ -59,5 +59,6 @@ Here are links to the various folders and sections in this repository:
 - [Blur Mask Image](./06-blur-mask-design/): A beautiful blur-mask-image-design using HTML, CSS and JS. The blur mask image design is added in the CSS file for making a blurry background.
 - [Web Time](./07-add-timer/): Add a beautiful time or clock to the web page using HTML. CSS and JS. You can change the Time Zone according to your place.
 - [Mouse Effect Design](./08-mouse-effect/): A beautiful mouse effect design using HTML, CSS and JS. You can customize the color and the width of the effect.
+- [Translucent Profile Card](./09-translucent-profile-card/): A beautiful translucent profile card made using HTML and CSS. You can modify the styling according to your needs.
 
 Happy coding!
