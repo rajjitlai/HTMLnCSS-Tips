@@ -61,5 +61,6 @@ Here are links to the various folders and sections in this repository:
 - [Mouse Effect Design](./08-mouse-effect/): A beautiful mouse effect design using HTML, CSS and JS. You can customize the color and the width of the effect.
 - [Translucent Profile Card](./09-translucent-profile-card/): A beautiful translucent profile card made using HTML and CSS. You can modify the styling according to your needs.
 - [Fill Blanks Quiz](./10-fill-blanks-quiz/): A quiz web design using HTML, CSS and JS. You can add your own questions which will be displayed like a fill-in-the-blanks quiz system.
+- [Responsive Navbar](./11-responsive-smoky-navbar/): A simple responsive Navbar design using HTML, CSS and JavaScript with Smoking Animation.
 
 Happy coding!
