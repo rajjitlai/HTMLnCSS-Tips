@@ -62,5 +62,6 @@ Here are links to the various folders and sections in this repository:
 - [Translucent Profile Card](./09-translucent-profile-card/): A beautiful translucent profile card made using HTML and CSS. You can modify the styling according to your needs.
 - [Fill Blanks Quiz](./10-fill-blanks-quiz/): A quiz web design using HTML, CSS and JS. You can add your own questions which will be displayed like a fill-in-the-blanks quiz system.
 - [Responsive Navbar](./11-responsive-smoky-navbar/): A simple responsive Navbar design using HTML, CSS and JavaScript with Smoking Animation.
+- [Responsive Web Design](): A responsive Web Design that can be used in the modern world using HTML, CSS and JS.
 
 Happy coding!
