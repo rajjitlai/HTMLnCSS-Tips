@@ -63,6 +63,6 @@ Here are links to the various folders and sections in this repository:
 - [Fill Blanks Quiz](./10-fill-blanks-quiz/): A quiz web design using HTML, CSS and JS. You can add your own questions which will be displayed like a fill-in-the-blanks quiz system.
 - [Responsive Navbar](./11-responsive-smoky-navbar/): A simple responsive Navbar design using HTML, CSS and JavaScript with Smoking Animation.
 - [Responsive Web Design](./12-responsive-web-design/): A responsive Web Design that can be used in the modern world using HTML, CSS and JS.
-- [Feedback Form Design](https://github.com/rajjitlai/feedback-form-design.git); A simple feedback form design using HTML, CSS and JS.
+- [Feedback Form Design](https://github.com/rajjitlai/feedback-form-design.git): A simple feedback form design using HTML, CSS and JS.
 
 Happy coding!
